@@ -16,5 +16,5 @@ clf.fit(X, y) # train
 print(clf.predict(digits.data[-5])) # test
 
 # lets visualize this
-plt.imshow(digits.images[-5], cmap=plt.cm.gray_r, interpolation='nearest')
+plt.imshow(digits.images[-5], cmap = plt.cm.gray_r, interpolation = 'nearest')
 plt.show()
